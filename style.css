@@ -1,0 +1,129 @@
+* {margin: 0; padding: 0;}
+html,body{
+    height: 100%;
+}
+label{
+    font-size:20px;
+}
+.content{
+    height: 100%;
+    background-color: #D5DBDD;
+    font-family: 'Bebas Neue', cursive;
+}
+.inline{
+    float:left;
+    background-color:rgb(181, 209, 205);
+    width:50%;
+    font-size:30px;
+    text-align: center;
+    color: #262727;
+}
+#wraping{
+    width:50%;
+    margin: auto;
+    margin-top: 2%;;
+}
+#difficulty{
+    background-color:cadetblue;
+    padding-top: 10px;
+    width: 50%;
+    height:8%;
+    margin:auto;
+    color: #ECF2F3 ;
+}
+#heading{
+    font-size:30px;
+    text-align: center;
+}
+#choise{
+    text-align: center;
+}
+#word_container{
+    background-color: #F3F0EC;
+    height: 45%;
+    width:50%;
+    margin:auto;
+    display: table;
+}
+#words{
+    text-align: center;
+    font-size: 100px;
+    display: table-cell;
+    vertical-align: middle;
+    color: #262727;
+    
+}
+#centered{
+    text-align:center;
+}
+#guess {
+    width:50%;
+    padding: 15px 0px;
+    border: 2px solid #dad7d3  ;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 2%;
+}
+#play{
+    border: 3px solid rgb(76, 112, 126) ;
+    border-radius: 4px;
+    background-color: cadetblue;
+    height: 60px;
+    width:50%;
+    font-family: 'Bebas Neue', cursive;
+    color: #ECF2F3;
+    font-size: 30px;
+    margin-top: 2%;
+}
+#progress_bar {
+    width: 50%;
+    height: 50px;
+    display: table;
+    background-color: rgb(76, 112, 126) ;
+    text-align: center;
+    line-height: 30px;
+    margin: auto;
+}
+#progress_bar span{
+    text-align: center;
+    font-size: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    color: #ECF2F3;
+}
+#play, .check:hover{
+    cursor:pointer;
+}
+#play:hover{
+    background-color:rgb(65, 138, 141);
+}
+@media screen and (max-width: 1200px) {
+    .content{
+        max-width: 1200px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .content{
+        max-width: 990px;
+    } 
+}
+@media screen and (max-width: 810px) {
+    .content{
+        max-width: 810px;
+    }
+}    
+@media screen and (max-width: 690px) {
+    .content{
+        max-width: none;
+    }
+    #words{
+        font-size: 60px;
+    }
+    #heading{
+        font-size: 20px;
+    }
+    label{
+        font-size: 15px;
+    }
+}

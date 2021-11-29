@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vocabulary game</title>
+    <meta charset="utf-8">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@700&family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@700&family=Roboto+Condensed&family=Work+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class = "content">
+        <div id="difficulty">
+            <div id="heading">Choose words difficulty level</div>
+            <div id="choise">
+                <label>Easy</label>
+                <input type="checkbox" class="check" id="easy"/>
+                <label>Medium</label>
+                <input type="checkbox" class="check" id="medium"/>
+                <label>Hard</label>
+                <input type="checkbox" class="check" id="hard"/>
+            </div>
+        </div>
+        <div id="progress_bar"><span>0</span>
+        </div>
+        <div id="word_container">
+            <div id="words">
+                <span>Choose difficulty</span>
+            </div>
+        </div>
+        <div id="centered">
+            <input type="text" id="guess" placeholder="Input translate here" disabled/><br />
+            <button id="play"><span id="button_text">Play!</span></button>
+        </div>
+        <div id="wraping"> 
+        <div class="inline">
+            Correct
+            <p id="points">0</p>
+        </div>
+        <div class="inline">
+            Wrong
+            <p id="misses">0</p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
